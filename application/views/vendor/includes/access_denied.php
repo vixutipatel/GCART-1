@@ -1,0 +1,26 @@
+<!-- Page header -->
+<div class="page-header page-header-default">
+    <div class="page-header-content">
+        <div class="page-title">
+            <h4>
+                <span class="text-semibold">Oops...</span>
+            </h4>
+        </div>
+    </div>
+    <div class="breadcrumb-line">
+        <ul class="breadcrumb">
+            <li>
+                <a href="<?php echo base_url('vendor/dashboard'); ?>"><i class="icon-home2 position-left"></i>Dashboard</a>
+            </li>
+            <li class="active"><?php echo get_current_controller(); ?></li>
+        </ul>
+    </div>
+</div>
+<!-- /Page header -->
+<!-- Content area -->
+<div class="content">
+    <div class="alert alert-danger alert-bordered">
+        <span class="text-semibold">Oh snap!</span>access denied.
+    </div>
+</div>
+<!-- /Content area -->
